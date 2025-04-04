@@ -84,6 +84,12 @@ const LandingPage = ({ onOpenInvitation }) => {
               transition={{ delay: 0.5 }}
               className="text-center space-y-4"
             >
+              <p className="text-gray-500 font-serif italic text-sm">
+                Kepada Yth.
+              </p>
+              <p className="text-gray-600 font-medium text-sm">
+                Bapak/Ibu/Saudara/i
+              </p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-800 leading-tight flex flex-wrap justify-center gap-2">
                 {guestName
                   ? guestName.includes("&")
