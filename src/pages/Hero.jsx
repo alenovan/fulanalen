@@ -162,7 +162,7 @@ export default function Hero() {
 
               <div className="space-y-6 text-center">
                 <div className="space-y-3">
-                  <motion.div
+                  {/* <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.9 }}
@@ -172,9 +172,9 @@ export default function Hero() {
                     <span className="text-gray-700 font-medium text-sm sm:text-base">
                       {formatEventDate(config.data.date, "full")}
                     </span>
-                  </motion.div>
+                  </motion.div> */}
 
-                  <motion.div
+                  {/* <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
@@ -184,29 +184,29 @@ export default function Hero() {
                     <span className="text-gray-700 font-medium text-sm sm:text-base">
                       {config.data.time}
                     </span>
-                  </motion.div>
+                  </motion.div> */}
                 </div>
 
-                <div className="flex items-center justify-center gap-3">
+                {/* <div className="flex items-center justify-center gap-3">
                   <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
                   <div className="w-2 h-2 rounded-full bg-rose-200" />
                   <div className="h-px w-8 sm:w-12 bg-rose-200/50" />
-                </div>
+                </div> */}
 
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1.1 }}
-                  className="space-y-2"
+                  className=""
                 >
-                  <p className="text-gray-500 font-serif italic text-sm">
-                    Kepada Yth.
-                  </p>
-                  <p className="text-gray-600 font-medium text-sm">
-                    Bapak/Ibu/Saudara/i
-                  </p>
-                  <p className="text-rose-500 font-semibold text-lg">
-                    {guestName ? guestName : "Tamu"}
+                  <p className="text-gray-500  italic text-sm">
+                    Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
+                    menciptakan pasangan-pasangan untukmu dari jenismu sendiri,
+                    agar kamu cenderung dan merasa tenteram kepadanya, dan Dia
+                    menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada
+                    yang demikian itu benar-benar terdapat tanda-tanda
+                    (kebesaran Allah) bagi kaum yang berpikir (QS. Ar-Rum Ayat
+                    21)
                   </p>
                 </motion.div>
               </div>
@@ -219,6 +219,16 @@ export default function Hero() {
             <div className="absolute -top-2 -right-2 w-16 sm:w-24 h-16 sm:h-24 bg-rose-100/20 rounded-full blur-xl" />
             <div className="absolute -bottom-2 -left-2 w-16 sm:w-24 h-16 sm:h-24 bg-rose-100/20 rounded-full blur-xl" />
           </motion.div>
+
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+            className="text-4xl md:text-5xl font-serif text-gray-800 leading-tight"
+          >
+            Menuju Hari Bahagia
+          </motion.h2>
 
           <CountdownTimer targetDate={config.data.date} />
 
