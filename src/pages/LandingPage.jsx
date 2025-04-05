@@ -61,10 +61,8 @@ const LandingPage = ({ onOpenInvitation }) => {
               className="flex flex-col gap-4 mb-6 sm:mb-8 items-center"
             >
               <div className="inline-flex flex-col items-center space-y-1 bg-white/80 px-4 sm:px-6 py-2 sm:py-3 rounded-xl">
-                <Calendar className="w-5 h-5 text-rose-400" />
-                <p className="text-gray-700 font-medium">
-                  {formatEventDate(config.data.date)}
-                </p>
+                <p className="text-gray-500 font-light italic text-2xl  ">The Wedding Of</p>
+                <p className="text-gray-700 font-medium text-2xl">Fulan & Alen</p>
               </div>
               {/* Uncomment if needed */}
               {/* 

@@ -123,8 +123,8 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="inline-block mx-auto"
           >
-            <span className="px-4 py-1 text-sm bg-rose-50 text-rose-600 rounded-full border border-rose-200">
-              Hai Semuanya
+            <span className="px-4 py-1 text-2xl rounded-full ">
+              ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ
             </span>
           </motion.div>
 
