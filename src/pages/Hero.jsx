@@ -124,7 +124,7 @@ export default function Hero() {
             className="inline-block mx-auto"
           >
             <span className="px-4 py-1 text-sm bg-rose-50 text-rose-600 rounded-full border border-rose-200">
-              Catat Tanggal Penting Ini
+              Hai Semuanya
             </span>
           </motion.div>
 
@@ -155,7 +155,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-gradient-to-b from-rose-50/50 to-white/50 backdrop-blur-md rounded-2xl" />
 
-            <div className="relative px-4 sm:px-8 py-8 sm:py-10 rounded-2xl border border-rose-100/50">
+            <div className="relative px-4 sm:px-8 py-8 sm:py-5 rounded-2xl border border-rose-100/50">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-px">
                 <div className="w-20 sm:w-32 h-[2px] bg-gradient-to-r from-transparent via-rose-200 to-transparent" />
               </div>

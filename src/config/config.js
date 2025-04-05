@@ -20,7 +20,7 @@ const config = {
     agenda: [
       {
         title: "Akad Nikah",
-        date: "2025-4-21",
+        date: "Senin, April 21, 2025",
         startTime: "10:00",
         endTime: "11:00",
         location: "Balai Nikah KUA Kepanjen",
@@ -28,7 +28,7 @@ const config = {
       },
       {
         title: "Resepsi Nikah",
-        date: "2025-4-21",
+        date: "Senin, April 21, 2025",
         startTime: "13:00",
         endTime: "19:00",
         location: "Aula Baitul A'la",
