@@ -101,7 +101,7 @@ export default function Gifts() {
           </motion.div>
 
           {/* Bank Accounts Grid */}
-          <div className="max-w-2xl mx-auto grid gap-6">
+          <div className="max-w-2xl mx-auto grid gap-6 mb-10">
             {config.data.banks.map((account, index) => (
               <motion.div
                 key={account.accountNumber}

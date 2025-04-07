@@ -3,8 +3,8 @@ const config = {
     title: "Lan & Len",
     description:
       "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.",
-    groomName: "Fulan",
-    brideName: "Alen",
+    groomName: "Alen",
+    brideName: "Fulan",
     parentGroom: "Bapak Istiyar & Ibu Supiani",
     parentBride: "Bapak Abdul Muhyi & Ibu Kristin",
     date: "2025-04-21",
@@ -34,6 +34,14 @@ const config = {
         location: "Aula Baitul A'la",
         address: "Jl. Krapyak Tim., Cepokomulyo, Kec. Kepanjen",
       },
+      {
+        title: "Walimatul Ursy ",
+        date: "Sabtu, April 26, 2025",
+        startTime: "09:00",
+        endTime: "18:00",
+        location: "Perumahan Junrejo Indah",
+        address: "Perumahan Junrejo Indah",
+      },
     ],
     audio: {
       src: "/audio/fulfilling-humming.mp3",
@@ -47,11 +55,11 @@ const config = {
         accountNumber: "3151170178",
         accountName: "ALENOVAN WIRADHIKA PUTRA",
       },
-      // {
-      //   bank: "Bank Mandiri",
-      //   accountNumber: "1440023827683",
-      //   accountName: "ALENOVAN WIRADHIKA P",
-      // },
+      {
+        bank: "Bank Mandiri",
+        accountNumber: "1440023827683",
+        accountName: "ALENOVAN WIRADHIKA P",
+      },
     ],
   },
 };

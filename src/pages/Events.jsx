@@ -42,7 +42,7 @@ export default function Events() {
               className="text-gray-500 max-w-md mx-auto"
             >
               Kami Mengundang Anda untuk Merayakan Hari Istimewa Sebagai Awal
-              Perjalanan Cinta Kami
+              Perjalanan Ibadah Kami
             </motion.p>
 
             {/* Decorative Line */}
