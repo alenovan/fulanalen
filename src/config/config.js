@@ -3,8 +3,8 @@ const config = {
     title: "Lan & Len",
     description:
       "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.",
-    groomName: "Alen",
-    brideName: "Fulan",
+    groomName: "Len",
+    brideName: "Lan",
     parentGroom: "Bapak Istiyar & Ibu Supiani",
     parentBride: "Bapak Abdul Muhyi & Ibu Kristin",
     date: "2025-04-21",
